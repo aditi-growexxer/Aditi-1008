@@ -1,0 +1,41 @@
+<div class="col-md-12 p-5">
+    <table class="table table-striped" ng-switch="$ctrl.type">
+      <thead class="thead-dark">
+        <tr>
+          <th
+            ng-repeat="ele in $ctrl.tablecols"
+            ng-click="$ctrl.orderBy(ele.value)"
+          >
+            {{ ele.name }}
+          </th>
+        </tr>
+      </thead>
+  
+      <tbody
+        ng-switch-when="employees"
+        ng-repeat="ele in $ctrl.tablerows | orderBy: $ctrl.orderByMe"
+      >
+        <tr>
+          <td>{{ ele.firstname + " " + ele.lastname }}</td>
+          <td>{{ ele.email }}</td>
+          <td>{{ ele.phone }}</td>
+          <td>{{ ele.dob | date }}</td>
+          <td>{{ ele.salary | rupeeFilter }}({{ ele.salary | negativeFilter }})</td>
+        </tr>
+      </tbody>
+  
+      <tbody
+        ng-switch-when="users"
+        ng-repeat="ele in $ctrl.tablerows | orderBy: $ctrl.orderByMe"
+      >
+        <tr>
+          <td>{{ ele.id }}</td>
+          <td>{{ ele.name }}</td>
+          <td>{{ ele.email }}</td>
+          <td>{{ ele.gender }}</td>
+          <td>{{ ele.status }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  

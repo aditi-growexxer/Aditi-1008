@@ -23,6 +23,16 @@ app.component("sidebarComponent", {
                 "title": "Dashboard",
                 "link": "#!/dashboard",
                 "icon": "mdi mdi-grid-large"
+            },
+            {
+                "title": "Employees List",
+                "link": "#!/employees_list",
+                "icon": "mdi mdi-card-text-outline"
+            },
+            {
+                "title": "Create New Employee",
+                "link": "#!/create_new_employee",
+                "icon": "mdi mdi-layers-outline"
             }
         ];
     }

@@ -1,0 +1,38 @@
+<header-component></header-component>
+<div class="container-fluid page-body-wrapper pt-0">
+  <sidebar-component></sidebar-component>
+  <div class="main-panel" style="padding-top: 97px">
+    <div class="content-wrapper">
+      <div class="grid-margin stretch-card">
+        <div class="card">
+          <div class="card-body">
+            <h4 class="card-title">Employees</h4>
+            <div class="table-responsive">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Date of birth</th>
+                    <th>Salary</th>
+                  </tr>
+                </thead>
+                <tbody ng-repeat="ele in emps" ng-if="emps.length > 0">
+                  <tr>
+                    <td>{{ele.firstName}}</td>
+                    <td>{{ele.lastName}}</td>
+                    <td>{{ele.email}}</td>
+                    <td>{{ele.dob | date:'dd/MM/yyyy'}}</td>
+                    <td>{{ele.salary}}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer-component></footer-component>
+  </div>
+</div>

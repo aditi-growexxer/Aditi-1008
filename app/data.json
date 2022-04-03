@@ -1,0 +1,72 @@
+[
+    {
+      "firstName": "Ebony",
+      "lastName": "Douglas",
+      "email": "Ebony.Douglas@dummyapis.com",
+      "dob": "29/09/1998",
+      "salary": 100
+    },
+    {
+      "firstName": "Kaya",
+      "lastName": "Sanford",
+      "email": "Kaya.Sanford@dummyapis.com",
+      "dob": "08/07/1939",
+      "salary": 200
+    },
+    {
+      "firstName": "Malinda",
+      "lastName": "Hirthe",
+      "email": "Malinda.Hirthe@dummyapis.com",
+      "dob": "07/11/1956",
+      "salary": 300
+    },
+    {
+      "firstName": "Beverly",
+      "lastName": "Harvey",
+      "email": "Beverly.Harvey@dummyapis.com",
+      "dob": "18/12/1957",
+      "salary": 400
+    },
+    {
+      "firstName": "Henri",
+      "lastName": "Douglas",
+      "email": "Henri.Douglas@dummyapis.com",
+      "dob": "01/01/1974",
+      "salary": 500
+    },
+    {
+      "firstName": "Delores",
+      "lastName": "Bednar",
+      "email": "Delores.Bednar@dummyapis.com",
+      "dob": "21/06/1949",
+      "salary": 600
+    },
+    {
+      "firstName": "Yolanda",
+      "lastName": "Terry",
+      "email": "Yolanda.Terry@dummyapis.com",
+      "dob": "27/11/1979",
+      "salary": 700
+   },
+    {
+      "firstName": "Gertrude",
+      "lastName": "Mueller",
+      "email": "Gertrude.Mueller@dummyapis.com",
+      "dob": "08/07/1944",
+      "salary": 800
+    },
+    {
+      "firstName": "Lilian",
+      "lastName": "Veum",
+      "email": "Lilian.Veum@dummyapis.com",
+      "dob": "02/07/1972",
+      "salary": 900
+    },
+    {
+      "firstName": "Marcelle",
+      "lastName": "Gleichner",
+      "email": "Marcelle.Gleichner@dummyapis.com",
+      "dob": "23/12/1945",
+      "salary": 1000
+    }
+  ]
