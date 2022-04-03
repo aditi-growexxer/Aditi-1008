@@ -1,0 +1,17 @@
+<div class="container-scroller">
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper">
+
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+            <ul class="nav">
+                <li class="nav-item" ng-repeat="item in menu">
+                    <a class="nav-link" href="{{item.link}}">
+                        <i class="menu-icon {{item.icon}}"></i>
+                        <span class="menu-title">{{item.title}}</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
